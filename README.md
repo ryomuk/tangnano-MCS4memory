@@ -11,7 +11,7 @@ If necessary, please use a translation service such as DeepL (I recommend this) 
 これにより，DigikeyやMouserで入手可能な部品とTangNano20KだけでIntel4004を動作させることができます．
 
 ## ボードの構成
-![](images/rev2_1.png)
+![](images/components.png)
 部品のほとんどはレベル変換用IC(15V←→3.3V, 15Vクロックドライバ, UART用5V耐圧バッファ)です．
 
 ## Tang Nano 20Kに実装したもの
