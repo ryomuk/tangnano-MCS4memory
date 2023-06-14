@@ -10,6 +10,10 @@ If necessary, please use a translation service such as DeepL (I recommend this) 
 [emu8080on4004](https://github.com/ryomuk/emu8080on4004)を動作させるための4004実験ボード(Rev.2.1)の「4004以外の部分」(主にメモリシステム)をTang Nano 20K に実装しました．
 これにより，DigikeyやMouserで入手可能な部品とTangNano20KだけでIntel4004を動作させることができます．
 
+## ボードの構成
+![](images/rev2_1.png)
+部品のほとんどはレベル変換用IC(15V←→3.3V, 15Vクロックドライバ, UART用5V耐圧バッファ)です．
+
 ## Tang Nano 20Kに実装したもの
 - 4002 x 4個 (data ram, 出力ポート)．出力ポートのLEDはRAM0の4個のみ．
 - 4289 のプログラムメモリへのアクセス機能(ポート機能は未実装)
@@ -17,7 +21,7 @@ If necessary, please use a translation service such as DeepL (I recommend this) 
 - プログラム領域のRAM (256byte x 256バンク = 64KB)
 - 2相クロックジェネレータ
 
-下記の赤枠の部分が実装されています．
+Rev.2.1ボードにおける下記の赤枠の部分がTangNano20Kに実装されています．
 ![](images/rev2_1.png)
 
 ## 電源について
