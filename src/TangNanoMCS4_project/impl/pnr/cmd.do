@@ -1,0 +1,12 @@
+-d D:\wks\ework\FPGA\TangNano\20k\TangNanoMCS4\TangNanoMCS4_project\impl\gwsynthesis\TangNanoMCS4.vg
+-p GW2AR-18C-QFN88-8
+-pn GW2AR-LV18QN88C8/I7
+-cst D:\wks\ework\FPGA\TangNano\20k\TangNanoMCS4\TangNanoMCS4_project\src\tn20k.cst
+-cfg D:\wks\ework\FPGA\TangNano\20k\TangNanoMCS4\TangNanoMCS4_project\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-correct_hold 1
+-route_maxfan 23

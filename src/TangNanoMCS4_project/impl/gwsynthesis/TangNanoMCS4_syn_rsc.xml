@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top" Register="94" Lut="210">
+    <SubModule name="pll_clkgen"/>
+    <SubModule name="pm" Register="32" Lut="23" Bsram="32"/>
+    <SubModule name="rom" Bsram="2"/>
+    <SubModule name="ram0" Register="14" Alu="5" Lut="84" Ssram="8"/>
+    <SubModule name="ram1" Register="13" Alu="5" Lut="72" Ssram="8"/>
+    <SubModule name="ram2" Register="9" Alu="5" Lut="68" Ssram="8"/>
+    <SubModule name="ram3" Register="10" Alu="5" Lut="70" Ssram="8"/>
+    <SubModule name="rgb_led" Register="41" Lut="78"/>
+</Module>

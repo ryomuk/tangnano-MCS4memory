@@ -1,0 +1,76 @@
+[
+ {
+  "InstFile" : "D:/wks/ework/FPGA/TangNano/20k/TangNanoMCS4/TangNanoMCS4_project/src/top.v",
+  "InstLine" : 7,
+  "InstName" : "top",
+  "ModuleFile" : "D:/wks/ework/FPGA/TangNano/20k/TangNanoMCS4/TangNanoMCS4_project/src/top.v",
+  "ModuleLine" : 7,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/wks/ework/FPGA/TangNano/20k/TangNanoMCS4/TangNanoMCS4_project/src/top.v",
+    "InstLine" : 78,
+    "InstName" : "pll_clkgen",
+    "ModuleFile" : "D:/wks/ework/FPGA/TangNano/20k/TangNanoMCS4/TangNanoMCS4_project/src/gowin_rpll/gowin_rpll.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_rPLL"
+   },
+   {
+    "InstFile" : "D:/wks/ework/FPGA/TangNano/20k/TangNanoMCS4/TangNanoMCS4_project/src/top.v",
+    "InstLine" : 121,
+    "InstName" : "pm",
+    "ModuleFile" : "D:/wks/ework/FPGA/TangNano/20k/TangNanoMCS4/TangNanoMCS4_project/src/pm.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "programmemory"
+   },
+   {
+    "InstFile" : "D:/wks/ework/FPGA/TangNano/20k/TangNanoMCS4/TangNanoMCS4_project/src/top.v",
+    "InstLine" : 127,
+    "InstName" : "rom",
+    "ModuleFile" : "D:/wks/ework/FPGA/TangNano/20k/TangNanoMCS4/TangNanoMCS4_project/src/rom.v",
+    "ModuleLine" : 6,
+    "ModuleName" : "rom_image"
+   },
+   {
+    "InstFile" : "D:/wks/ework/FPGA/TangNano/20k/TangNanoMCS4/TangNanoMCS4_project/src/top.v",
+    "InstLine" : 142,
+    "InstName" : "ram0",
+    "ModuleFile" : "D:/wks/ework/FPGA/TangNano/20k/TangNanoMCS4/TangNanoMCS4_project/src/ram.v",
+    "ModuleLine" : 6,
+    "ModuleName" : "ram4002"
+   },
+   {
+    "InstFile" : "D:/wks/ework/FPGA/TangNano/20k/TangNanoMCS4/TangNanoMCS4_project/src/top.v",
+    "InstLine" : 145,
+    "InstName" : "ram1",
+    "ModuleFile" : "D:/wks/ework/FPGA/TangNano/20k/TangNanoMCS4/TangNanoMCS4_project/src/ram.v",
+    "ModuleLine" : 6,
+    "ModuleName" : "ram4002"
+   },
+   {
+    "InstFile" : "D:/wks/ework/FPGA/TangNano/20k/TangNanoMCS4/TangNanoMCS4_project/src/top.v",
+    "InstLine" : 148,
+    "InstName" : "ram2",
+    "ModuleFile" : "D:/wks/ework/FPGA/TangNano/20k/TangNanoMCS4/TangNanoMCS4_project/src/ram.v",
+    "ModuleLine" : 6,
+    "ModuleName" : "ram4002"
+   },
+   {
+    "InstFile" : "D:/wks/ework/FPGA/TangNano/20k/TangNanoMCS4/TangNanoMCS4_project/src/top.v",
+    "InstLine" : 151,
+    "InstName" : "ram3",
+    "ModuleFile" : "D:/wks/ework/FPGA/TangNano/20k/TangNanoMCS4/TangNanoMCS4_project/src/ram.v",
+    "ModuleLine" : 6,
+    "ModuleName" : "ram4002"
+   },
+   {
+    "InstFile" : "D:/wks/ework/FPGA/TangNano/20k/TangNanoMCS4/TangNanoMCS4_project/src/top.v",
+    "InstLine" : 257,
+    "InstName" : "rgb_led",
+    "ModuleFile" : "D:/wks/ework/FPGA/TangNano/20k/TangNanoMCS4/TangNanoMCS4_project/src/ws2812.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "ws2812"
+   }
+  ]
+ }
+]

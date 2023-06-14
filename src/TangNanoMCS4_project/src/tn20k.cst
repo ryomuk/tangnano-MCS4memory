@@ -1,0 +1,48 @@
+IO_LOC  "led[5]"     20; IO_PORT "led[5]" PULL_MODE=UP DRIVE=8;
+IO_LOC  "led[4]"     19; IO_PORT "led[4]" PULL_MODE=UP DRIVE=8;
+IO_LOC  "led[3]"     18; IO_PORT "led[3]" PULL_MODE=UP DRIVE=8;
+IO_LOC  "led[2]"     17; IO_PORT "led[2]" PULL_MODE=UP DRIVE=8;
+IO_LOC  "led[1]"     16; IO_PORT "led[1]" PULL_MODE=UP DRIVE=8;
+IO_LOC  "led[0]"     15; IO_PORT "led[0]" PULL_MODE=UP DRIVE=8;
+IO_LOC  "ws2812"     79; IO_PORT "ws2812" DRIVE=8; // RGB LED
+IO_LOC  "sw1"        88;
+IO_LOC  "sw2"        87;
+IO_LOC  "sys_clk"     4; IO_PORT "sys_clk" PULL_MODE=UP;
+
+IO_LOC  "debug_trg"  73; IO_PORT "debug_trg" DRIVE=8;
+IO_LOC  "cmram_n[0]" 74;
+IO_LOC  "cmram_n[1]" 75;
+IO_LOC  "cmram_n[2]" 85;
+IO_LOC  "cmram_n[3]" 77;
+// LED0 15
+// LED1 16
+IO_LOC  "testn_sw_n" 27; IO_PORT "testn_sw_n" PULL_MODE=UP;
+IO_LOC  "reset_sw_n" 28; IO_PORT "reset_sw_n" PULL_MODE=UP;
+// 26
+// 25
+// 29
+IO_LOC  "rx"         30;
+IO_LOC  "tx"         31; IO_PORT "tx" DRIVE=8;
+
+IO_LOC  "dout_n[0]"  76; IO_PORT "dout_n[0]" DRIVE=8;
+IO_LOC  "dout_n[1]"  80; IO_PORT "dout_n[1]" DRIVE=8;
+IO_LOC  "dout_n[2]"  42; IO_PORT "dout_n[2]" DRIVE=8;
+IO_LOC  "dout_n[3]"  41; IO_PORT "dout_n[3]" DRIVE=8;
+IO_LOC  "doe"        56; IO_PORT "doe" DRIVE=8;
+IO_LOC  "din_n[0]"   54;
+IO_LOC  "din_n[1]"   51;
+IO_LOC  "din_n[2]"   48;
+IO_LOC  "din_n[3]"   55;
+IO_LOC  "cmrom_n"    49;
+IO_LOC  "test_n"     86; IO_PORT "test_n"  DRIVE=8;
+
+IO_LOC  "reset_n"    72; IO_PORT "reset_n" DRIVE=8;
+IO_LOC  "clk1"       71; IO_PORT "clk1" DRIVE=8;
+IO_LOC  "clk2"       53; IO_PORT "clk2" DRIVE=8;
+IO_LOC  "sync_n"     52;
+
+
+
+
+
+
